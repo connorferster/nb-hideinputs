@@ -1,9 +1,9 @@
 """
 A simple exporter for nbconvert (>= 7.0.0) that hides all input cells
 in the export. Adds export options to JupyterLab's "export as" menu.
-"""#
+"""
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 from nbconvert import PDFExporter, HTMLExporter, LatexExporter
 from copy import deepcopy
