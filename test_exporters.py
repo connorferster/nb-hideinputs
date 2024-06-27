@@ -1,5 +1,5 @@
 
-from exporters import (
+from nb_hideinputs import (
     LatexHideInputExporter,
     HTMLHideInputExporter,
     PDFHideInputExporter,
