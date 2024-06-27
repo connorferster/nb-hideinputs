@@ -1,10 +1,8 @@
-
 from nb_hideinputs import (
     LatexHideInputExporter,
     HTMLHideInputExporter,
     PDFHideInputExporter,
 )
-
 
 def test_latex_exporter():
     exporter = LatexHideInputExporter()

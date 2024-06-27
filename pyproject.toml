@@ -12,5 +12,10 @@ dependencies = [
     "nbconvert >= 7.0.0"
 ]
 
+[project.optional-dependencies]
+test = [
+    "pytest"
+]
+
 [project.urls]
 Home = "https://github.com/connorferster/nb_hideinputs"
