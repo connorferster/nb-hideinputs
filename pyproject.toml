@@ -20,3 +20,9 @@ test = [
 
 [project.urls]
 Home = "https://github.com/connorferster/nb_hideinputs"
+
+
+[project.entry-points."nbconvert.exporters"]
+HTML_NoInput = 'nb_hideinputs:HTMLHideInputExporter'
+PDF_NoInput = 'nb_hideinputs:PDFHideInputExporter'
+LaTeX_NoInput = 'nb_hideinputs:LatexHideInputExporter'
