@@ -1,7 +1,7 @@
 """
 A simple exporter for nbconvert (>= 7.0.0) that hides all input cells
 in the export. Adds export options to JupyterLab's "export as" menu.
-"""
+"""#
 
 __version__ = "0.1.0"
 
